@@ -25,8 +25,8 @@ function enableCam(event) {
     }
 
     // Hide the button once clicked.
-    event.target.classList.add("removed");
-
+    // event.target.classList.add("removed");
+    event.target.style.display = "none";
     // getUsermedia parameters to force video but not audio.
     const constraints = {
         video: true
